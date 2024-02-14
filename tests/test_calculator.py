@@ -1,3 +1,4 @@
+"""Testing calculator operations"""
 from calculator import Calculator
 
 def test_addition():
@@ -15,5 +16,4 @@ def test_multiply():
 def test_divide():
     '''Test that addition function works '''    
     assert Calculator.divide(2,2) == 1
-    
     

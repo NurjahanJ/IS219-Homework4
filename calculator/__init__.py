@@ -1,4 +1,4 @@
-from calculator import Calculation
+from calculator.calculation import Calculation
 from calculator.operations import add, subtract, multiply, divide
 
 class Calculator:
