@@ -32,9 +32,11 @@ def generate_test_data(num_records):
             expected = "ZeroDivisionError"
         yield a, b, operation_name, operation_func, expected
 def pytest_addoption(parser):
+    """Adds custom pytest command-line options."""
     parser.addoption("--num_records", action="store", default=5, type=int, help="Number of test records to generate")
 
 def pytest_generate_tests(metafunc):
+    """Generates tests based on command-line options."""
     # Check if the test is expecting any of the dynamically generated fixtures
     if {"a", "b", "expected"}.intersection(set(metafunc.fixturenames)):
         num_records = metafunc.config.getoption("num_records")
