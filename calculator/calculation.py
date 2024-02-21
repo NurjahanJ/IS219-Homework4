@@ -1,9 +1,7 @@
 '''
     This code snippet demonstrates how to define a class in Python that 
-    encapsulates a mathematical calculation, including two operands (a and b) 
+    encapsulates a math calculation, including two operands (a and b) 
     and an operation (like add or subtract). 
-    The operation parameter is a higher-order function, meaning it takes 
-    functions as arguments or returns them. 
 '''
 # Import the Decimal class for precise decimal arithmetic
 from decimal import Decimal
