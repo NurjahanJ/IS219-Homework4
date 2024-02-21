@@ -1,4 +1,4 @@
-# conftest.py
+"""Module for pytest configurations and fixtures."""
 import pytest
 from decimal import Decimal
 from faker import Faker
