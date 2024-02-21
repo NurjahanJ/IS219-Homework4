@@ -5,7 +5,7 @@ It includes tests for divide operations, including edge cases like division by z
 import pytest
 from decimal import Decimal
 from calculator.calculation import Calculation
-from calculator.operations import add, subtract, multiply, divide
+from calculator.operations import divide
 
 
 def test_operation(a, b, operation, expected):
