@@ -2,8 +2,6 @@
 
 This Python code defines a Calculator class that provides a simple interface for performing arithmetic operations (addition, subtraction, multiplication, division) on Decimal numbers. The class uses static methods, demonstrating a functional approach within an object-oriented context. 
 Each operation method creates a Calculation object, performs the calculation, adds it to a history of calculations, and then returns the result. 
-Let's break down the code with detailed comments and highlight its design principles.
-
 '''
 
 # Import necessary modules and classes
