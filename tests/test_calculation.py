@@ -15,7 +15,7 @@ from calculator.operations import add, divide
 # with different sets of arguments. Here, it's used to test various scenarios of arithmetic operations
 # with both integer and decimal operands to ensure the operations work correctly under different conditions.
 
-def test_calculation_operations(a, b, operation, expected):
+def test_calculation_operations(a, b, operation, expected): # pylint: disable=invalid-name
     """
     Test calculation operations with various scenarios.
     
@@ -41,7 +41,7 @@ def test_calculation_repr():
     """
     calc = Calculation(Decimal('10'), Decimal('5'), add)  # Create a Calculation instance for testing.
     expected_repr = "Calculation(10, 5, add)"  # Define the expected string representation.
-    assert calc.__repr__() == expected_repr, "The __repr__ method output does not match the expected string."  # Assert that the actual string representation matches the expected string.
+    assert repr(calc) == expected_repr, "The __repr__ method output does not match the expected string."  # Assert that the actual string representation matches the expected string.
 
 def test_divide_by_zero():
     """
