@@ -6,13 +6,6 @@ The tests verify the correctness of basic arithmetic operations
 as well as the functionality of the Calculation class that encapsulates these operations.
 """
 
-# Import statements:
-# Disable specific pylint warnings that are not relevant for this test file.
-# Import the Decimal class for precise decimal arithmetic, which is especially useful in financial calculations.
-# Import pytest for writing test cases.
-# Import the Calculation class from the calculator package to test its functionality.
-# Import the arithmetic operation functions (add, subtract, multiply, divide) to be tested.
-# pylint: disable=unnecessary-dunder-call, invalid-name
 from decimal import Decimal
 import pytest
 from calculator.calculation import Calculation
