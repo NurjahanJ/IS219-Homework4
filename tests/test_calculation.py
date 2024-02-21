@@ -1,7 +1,7 @@
 """
 This module contains tests for the calculator operations and Calculation class.
 
-The tests are designed to verify the correctness of basic arithmetic operations
+The tests verify the correctness of basic arithmetic operations
 (addition, subtraction, multiplication, division) implemented in the calculator.operations module,
 as well as the functionality of the Calculation class that encapsulates these operations.
 """
