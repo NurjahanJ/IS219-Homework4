@@ -1,3 +1,7 @@
+"""
+This module contains tests for operation functions in the calculator application.
+It includes tests for divide operations, including edge cases like division by zero.
+"""
 import pytest
 from decimal import Decimal
 from calculator.calculation import Calculation
