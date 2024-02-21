@@ -1,6 +1,6 @@
 """Module for pytest configurations and fixtures."""
-import pytest
 from decimal import Decimal
+import pytest
 from faker import Faker
 from calculator.operations import add, subtract, multiply, divide
 
